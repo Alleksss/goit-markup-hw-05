@@ -505,9 +505,8 @@ img {
   border-radius: 4px;
 }
 
-
 .close-btn {
-  display: block;
+  display: flex;
   margin-left: auto;
   width: 24px;
   height: 24px;
@@ -524,6 +523,7 @@ img {
 }
 .close-icon {
   fill: currentColor;
+  margin: auto;
 }
 
 .is-hidden {
@@ -533,20 +533,20 @@ img {
 }
 
 /* .modal-open {
-	animation: open-modal 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: open-modal 1s cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
 
 @keyframes open-modal {
   0% {
     transform: scale(0);
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     transform: scale(1);
     opacity: 1;
   }
 }
-@keyframes close-modal {
+/* @keyframes close-modal {
   0% {
     transform: scale(1);
     opacity: 1;
@@ -555,4 +555,4 @@ img {
     transform: scale(0);
     opacity: 0;
   }
-} */
+} */ 
